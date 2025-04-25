@@ -29,6 +29,7 @@ struct WeatherManager{
             let task = URLSession(configuration: .default)
             task.dataTask(with: url) { (data, response, error) in
                 if error != nil{
+                    print("error in request data")
                     delegate?.didFinishWithError(error: error!)
                 }
                 if let safeData = data{

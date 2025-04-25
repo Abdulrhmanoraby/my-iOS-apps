@@ -126,10 +126,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="cityLabel" destination="ibe-nU-bAh" id="1Rg-8Q-Q0P"/>
-                        <outlet property="conditionImageView" destination="9RX-Gu-4fY" id="KFi-Fu-DN8"/>
+                        <outlet property="cityLabel" destination="ibe-nU-bAh" id="GRd-J7-CJ8"/>
+                        <outlet property="conditionImage" destination="9RX-Gu-4fY" id="6xU-nX-TyO"/>
                         <outlet property="searchTextField" destination="BSB-Qi-NGH" id="dlv-xG-vDv"/>
-                        <outlet property="temperatureLabel" destination="cPe-jV-cjM" id="Gxv-wM-iD4"/>
+                        <outlet property="tempLabel" destination="cPe-jV-cjM" id="4Fj-lj-RtI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
